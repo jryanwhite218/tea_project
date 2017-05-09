@@ -1,0 +1,126 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+}
+header {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  z-index: 1;
+  background-color: black;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.logo img {
+  height: 50px;
+}
+.links {
+  width: 100%;
+  text-align: right;
+}
+.links span {
+  padding-right: 10px;
+}
+a {
+  color: seashell;
+}
+.content {
+  padding-top: 70px;
+  color: seashell;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.mission {
+  background-image: url(file:///Users/josh.white/Desktop/thecozytea/resources/images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.mission h2, h4 {
+  padding: 10px;
+  background-color: black;
+  text-align: center;
+  margin: 0;
+}
+.tea {
+  height: 600px;
+  width: 1200px;
+  padding-top: 100px;
+}
+.tea h2, h4 {
+  text-align: center;
+}
+#menu {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#menu img {
+  width: 300px;
+  height: 200px;
+}
+figcaption {
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+.locations {
+  background-image: url(file:///Users/josh.white/Desktop/thecozytea/resources/images/img-locations-background.jpg);
+  margin-top: 200px;
+  height: 500px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.locations h2 {
+  padding-top: 40px;
+  padding-bottom: 15px;
+}
+.areas {
+  background-color: black;
+  z-index: 1;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 300px;
+  margin-left: 20px;
+  margin-right: 20px;
+  opacity: 1;
+
+}
+.areas span {
+  padding-bottom: 20px;
+}
+.footer {
+  height: 200px;
+  margin-top: 225px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.copyright {
+  margin-top: 400px;
+  padding-left: 20px;
+}
